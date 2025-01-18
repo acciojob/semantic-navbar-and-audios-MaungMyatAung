@@ -1,2 +1,39 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline; /* Display links in a row */
+    margin-right: 20px; /* Space between links */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+audio {
+    display: block; /* Each audio player on a new line */
+    margin: 10px 0; /* Space between audio players */
+}
